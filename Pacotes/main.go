@@ -8,6 +8,7 @@ import (
 func main() {
 	fmt.Println("Escrevendo do arquivo main")
 	auxiliar.Escrever()
+	auxiliar.Escrever2()
 }
 
 //se uma função começa com letra maiúscula, ela é pública e pode ser acessada por outros pacotes
